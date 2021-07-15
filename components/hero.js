@@ -1,12 +1,12 @@
 import { Link } from 'next/link'
 import Card from './card';
 
-export default function BlogPost() {
+export default function Hero() {
     return(
         <div className="row">
             <Card>
                 <div style={{ padding:'50px 0'}}>
-                    <div className="banner">Hero Banner</div>
+                    <div className="banner">Welcome to my blogsite!</div>
                 </div>
                 <div className="hero-nav">
                 <ul className="">

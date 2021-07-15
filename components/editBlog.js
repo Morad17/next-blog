@@ -9,7 +9,7 @@ import {
 export default function Home() {
     return(
 
-        <div className="">  
+        <div className="">
             <LiveProvider code="<strong>Hello World!</strong>">
             <LiveEditor />
             <LiveError />
