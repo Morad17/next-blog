@@ -1,0 +1,132 @@
+/*-----------Global-------- */
+
+body {
+  background: #e9eaed;
+  font-family: 'Noto Sans JP', sans-serif;
+  width:90%;
+  margin: 0 auto;
+  /* border: 0.1px solid #8695a5; */
+}
+
+.row{
+width: 90%;
+margin: 0 auto;
+}
+
+/*----Global Css Shortcuts----*/
+
+.center{
+  text-align: center;
+}
+.justify-center{
+justify-content: center;
+}
+.bold{
+font-weight:600;
+}
+
+select, option{
+color: black;
+}
+.default-value, select:invalid,
+select option[value=""] {
+color: #999998f6;
+
+}
+
+/*-----variable---*/
+$border-color: #a3aeb9;
+
+/*-----------blog-post-------- */
+/*-----------Hero-------- */
+/*-----------Home-------- */
+/*-----------Navbar-------- */
+
+/*------Header Navbar----*/
+
+.main-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  ul{
+      display:flex;
+
+      li {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          list-style: none;
+              a{
+              margin: 0 15px;
+              text-decoration: none;
+              color: black;
+              letter-spacing: 1.2px;
+              }
+          }
+      }
+  a:hover{
+      color:#5f9ea0;
+      }
+}
+
+/*------Main Navbar----*/
+.hero-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  ul{
+      display: flex;
+      flex-direction: row;
+
+      li{
+          list-style: none;
+      }
+
+      a{
+          text-decoration: none;
+          margin: 0 15px;
+          text-decoration: none;
+          color: black;
+          letter-spacing: 1.2px;
+      }
+  }
+}
+
+.search-row {
+  font-size: 23px;
+  padding: 6px;
+  margin-right: 10px;
+  color:gray;
+
+  input{
+      padding: 5px;
+  }
+}
+
+.searchInput{
+  border: 0;
+  width:0;
+  transition:width 0.1s ease-in;
+
+  .active{
+      width: 150px;
+  }
+}
+.searchInput:focus{
+  outline: none;
+}
+.fa-search{
+  cursor: pointer;
+}
+
+/*-----------Layout-------- */
+/*-----------Sidebar-------- */
+/*-----------Card-------- */
+.card{
+  width: 100%;
+  background: white;
+  border: 0.1px solid #a3aeb9;
+  border-radius: 4px;
+}
