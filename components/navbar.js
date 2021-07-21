@@ -5,9 +5,9 @@ export default function Navbar() {
          <header className="header row">
               <nav className="main-nav">
                   <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">About Me</a></li>
-                      <li><a href="#">Contact Me</a></li>
+                      <li><Link href="/" ><a >Home</a></Link></li>
+                      <li><Link href="#"><a>About Me</a></Link></li>
+                      <li><Link href="#"><a>Contact Me</a></Link></li>
                   </ul>
                   <ul>
                       <li><div className="">
