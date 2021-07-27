@@ -1,4 +1,3 @@
-import { Link } from 'next/link'
 import Card from './card';
 
 export default function Hero() {

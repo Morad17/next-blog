@@ -8,6 +8,9 @@ import {
 
 export default function Home() {
     return(
+        <div className="">
+
+        <div className=""></div>
 
         <div className="blog-preview">  
             <LiveProvider code="<strong>Hello World!</strong>">
@@ -15,6 +18,8 @@ export default function Home() {
             <LiveError />
             <LivePreview />
             </LiveProvider>
+        </div>
+        
         </div>
     )
 }
