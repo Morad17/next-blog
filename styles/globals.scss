@@ -236,3 +236,49 @@ $border-color: #a3aeb9;
   border: 0.1px solid #a3aeb9;
   border-radius: 4px;
 }
+
+/*-----------Create Blog-------- */
+.create-blog-row{
+  justify-content: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+
+  .create-blog-heading{
+      font-size: 2rem;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 5px;
+  }
+
+  hr{
+      justify-content: center;
+      margin-bottom: 1rem;
+  }
+
+  label{
+      display: block;
+      padding-bottom: 5px;
+      font-weight: bold;
+  }
+
+  input, select{
+      display: block;
+      width: 70%;
+      padding: 10px;
+  }
+
+  select{
+      width: 73%;
+  }
+
+  .react-datepicker-wrapper{
+      width:50%;
+  }
+
+  .form-group{
+      margin-bottom: 1.75rem;
+      margin-left: 10%;
+  }
+}
+
